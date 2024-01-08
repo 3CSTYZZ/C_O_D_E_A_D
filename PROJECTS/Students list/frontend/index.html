@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Список студентов</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon-cat.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script defer src="./app.js"></script>
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="container">
+        <!-- add student -->
+        <div class="add">
+          <h2 class="form__title bcg">Добавить студента</h2>
+
+          <form class="form">
+            <ul class="form__list bcg">
+              <li class="form__item">
+                <label for="surname">Фамилия</label>
+                <input id="surname" class="input" type="text" name="surname" />
+              </li>
+              <li class="form__item">
+                <label for="name">Имя</label>
+                <input id="sername" class="input" type="text" name="name" />
+              </li>
+              <li class="form__item">
+                <label for="lastname">Отчество</label>
+                <input
+                  id="lastname"
+                  class="input"
+                  type="text"
+                  name="lastname"
+                />
+              </li>
+              <li class="form__item">
+                <label for="birth">Дата рождения</label>
+                <input
+                  id="birth"
+                  class="input"
+                  type="date"
+                  min="1900-01-01"
+                  name="birth"
+                />
+              </li>
+              <li class="form__item">
+                <label for="course">Год начала обучения</label>
+                <input id="course" class="input" type="number" name="course" />
+              </li>
+              <li class="form__item">
+                <label for="faculty">Факультет</label>
+                <input id="faculty" class="input" type="text" name="faculty" />
+              </li>
+            </ul>
+
+            <button class="btn bcg" type="button">
+              <img
+                src="./src/img/icons8-sent-64.png"
+                alt="Sent image"
+                class="btn__img"
+              />
+            </button>
+          </form>
+        </div>
+
+        <!-- students list -->
+        <h2 class="students__title bcg">Список студентов</h2>
+
+        <table class="students__table" cellpadding="0" cellspacing="0">
+          <thead id="students__thead">
+            <tr>
+              <th class="students__table-head">ФИО студента</th>
+              <th class="students__table-head">Факультет</th>
+              <th class="students__table-head">Дата рождения</th>
+              <th class="students__table-head">Год обучения</th>
+            </tr>
+          </thead>
+
+          <!-- data -->
+          <tbody id="app"></tbody>
+        </table>
+
+        <!-- filter -->
+        <div class="filter">
+          <ul class="filter__list form__list bcg">
+            <h2 class="filter__title">Фильтр</h2>
+            <li class="form__item">
+              <label for="filter__fio">ФИО</label>
+              <input class="filter__input" id="filter__fio" type="text" />
+            </li>
+            <li class="form__item">
+              <label for="filter__faculty">Факультет</label>
+              <input class="filter__input" id="filter__faculty" type="text" />
+            </li>
+            <li class="form__item">
+              <label for="filter__start-learn">Год начала обучения</label>
+              <input
+                class="filter__input"
+                id="filter__start-learn"
+                type="number"
+              />
+            </li>
+            <li class="form__item">
+              <label for="filter__end-learn">Год окончания обучения</label>
+              <input
+                class="filter__input"
+                id="filter__end-learn"
+                type="number"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

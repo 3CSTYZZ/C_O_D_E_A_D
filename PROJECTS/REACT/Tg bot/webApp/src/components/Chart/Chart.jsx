@@ -23,19 +23,16 @@ export const options = {
   scales: {
     r: {
       angleLines: {
-        display: false,
+        display: true,
       },
       suggestedMin: 0,
       suggestedMax: 10,
       ticks: {
-        stepSize: 1,
+        stepSize: 2,
+        backdropColor: "rgba(255, 255, 255, 0)",
       },
       grid: {
         lineWidth: 1.5,
-        color: "#e7e7f4",
-      },
-      ticks: {
-        backdropColor: "rgba(255, 255, 255, 0)",
       },
     },
   },

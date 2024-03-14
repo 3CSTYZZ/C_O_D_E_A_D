@@ -23,7 +23,7 @@ export const options = {
   scales: {
     r: {
       angleLines: {
-        display: true,
+        display: false,
       },
       suggestedMin: 0,
       suggestedMax: 10,
@@ -35,7 +35,7 @@ export const options = {
         color: "#e7e7f4",
       },
       ticks: {
-        backdropColor: "rgba(255, 255, 255, 0.5)",
+        backdropColor: "rgba(255, 255, 255, 0)",
       },
     },
   },

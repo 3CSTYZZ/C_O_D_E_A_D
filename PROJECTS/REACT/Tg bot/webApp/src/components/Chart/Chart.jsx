@@ -19,30 +19,53 @@ ChartJS.register(
   Legend
 );
 
+export const options = {
+  scales: {
+    r: {
+      angleLines: {
+        display: true,
+      },
+      suggestedMin: 0,
+      suggestedMax: 10,
+      ticks: {
+        stepSize: 1,
+      },
+      grid: {
+        lineWidth: 1.5,
+        color: "#e7e7f4",
+      },
+      ticks: {
+        backdropPadding: 30,
+      },
+    },
+  },
+};
+
 export const data = {
-  labels: ["1", "2", "3", "4", "5", "6", "7", "8"],
+  labels: [
+    "Strength",
+    "Speed",
+    "Reaction",
+    "Jump",
+    "Technique",
+    "Stamina",
+    "Game IQ",
+    "Physique",
+  ],
+
   datasets: [
     {
       label: "PTS",
       data: [10, 8, 10, 9, 8, 9, 9, 9],
       backgroundColor: "rgba(255, 99, 132, 0.2)",
       borderColor: "rgba(255, 99, 132, 1)",
-      borderWidth: 5,
-    },
-    {
-      label: "",
-      data: [0],
-      backgroundColor: "rgba(255, 99, 132, 0.2)",
-      borderColor: "rgba(255, 99, 132, 1)",
-      borderWidth: 5,
+      borderWidth: 4,
     },
   ],
 };
 
-const test = data.datasets[1];
-
-console.log(test);
+console.log(data);
 
 export const Chart = () => {
-  return <Radar data={data} />;
+  return <Radar options={options} data={data} />;
 };

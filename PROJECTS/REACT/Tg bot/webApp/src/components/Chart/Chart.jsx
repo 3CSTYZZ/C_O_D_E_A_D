@@ -35,7 +35,7 @@ export const options = {
         color: "#e7e7f4",
       },
       ticks: {
-        backdropColor: "rgba(255, 255, 255, 0)",
+        backdropColor: "rgba(255, 255, 255, 0.5)",
       },
     },
   },

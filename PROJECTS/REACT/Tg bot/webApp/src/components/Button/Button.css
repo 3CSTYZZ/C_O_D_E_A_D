@@ -1,0 +1,5 @@
+.button {
+  padding: 20px 40px;
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useTelegram } from "./hooks/useTelegram";
 import { Header } from "./components/Header/Header";
 import { Chart } from "./components/Chart/Chart";
+import { Button } from "./components/Button/Button";
 import "./App.css";
 
 function App() {
@@ -13,13 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      {useTelegram().tg.colorScheme === "light" ? (
-        <Header />
-      ) : (
-        <Header className="dark-mode" />
-      )}
-      {/* <Header /> */}
-      <button onClick={onToggleButton}>Toggle</button>
+      <Header />
+      <Button onClick={onToggleButton} text={"Toggle"}></Button>
       <Chart />
     </div>
   );

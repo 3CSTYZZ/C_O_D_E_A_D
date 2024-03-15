@@ -8,6 +8,7 @@ bot.on("message", async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
 
+  // if tg.colorScheme === "light" ?
   if (text === "/start") {
     await bot.sendMessage(chatId, "Test zone", {
       reply_markup: {

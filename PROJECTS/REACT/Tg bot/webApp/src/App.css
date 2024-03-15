@@ -46,6 +46,10 @@ body,
   color: var(--tg-theme-text-color);
 }
 
+.dark-mode {
+  background-color: var(--tg-color-scheme);
+}
+
 :root {
   /* primary */
   --white: #fff;

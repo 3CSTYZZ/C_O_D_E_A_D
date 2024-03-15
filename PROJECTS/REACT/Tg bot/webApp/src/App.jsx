@@ -13,7 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {useTelegram().tg.colorScheme === "light" ? (
+        <Header />
+      ) : (
+        <Header className="dark-mode" />
+      )}
+      {/* <Header /> */}
       <button onClick={onToggleButton}>Toggle</button>
       <Chart />
     </div>

@@ -7,7 +7,7 @@ export const Header = () => {
 
   return (
     <div className={"header"}>
-      <Button onClick={onClose} text={'CLOSE'}></Button>
+      <Button onClick={onClose} text={"Close"}></Button>
       <span className={"username"}>{user?.username}</span>
     </div>
   );

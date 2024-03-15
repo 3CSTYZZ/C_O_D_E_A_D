@@ -20,4 +20,5 @@ function App() {
   );
 }
 
+console.log(useTelegram().tg.colorScheme);
 export default App;

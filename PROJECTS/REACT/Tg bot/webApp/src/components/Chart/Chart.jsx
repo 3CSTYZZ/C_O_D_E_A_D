@@ -174,5 +174,5 @@ export const options = {
 };
 
 export const Chart = () => {
-  return <Radar options={options} data={data} />;
+  return <Radar options={options} data={data} className={"dark-mode"} />;
 };

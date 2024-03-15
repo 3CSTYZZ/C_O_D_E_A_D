@@ -67,8 +67,8 @@ export const options = {
     r: {
       angleLines: {
         display: true,
-        color: "#f3f5f5",
-        lineWidth: 4,
+        color: "#e7eaeb",
+        lineWidth: 2,
       },
       suggestedMin: 0,
       suggestedMax: 10,
@@ -81,7 +81,7 @@ export const options = {
       },
       pointLabels: {
         font: {
-          size: 20,
+          size: 14,
           weight: "bold",
         },
       },
@@ -91,7 +91,7 @@ export const options = {
     legend: {
       labels: {
         font: {
-          size: 14,
+          size: 12,
           weight: "bold",
         },
       },

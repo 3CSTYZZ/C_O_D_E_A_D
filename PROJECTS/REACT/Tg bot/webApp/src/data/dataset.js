@@ -25,7 +25,7 @@ export function dataset() {
     },
     {
       paul: [7, 7, 7, 10, 6, 8, 8, 7],
-      tier: 'A'
+      tier: "A",
     },
     {
       alex: [7, 8, 8, 8, 9, 7, 9, 7],

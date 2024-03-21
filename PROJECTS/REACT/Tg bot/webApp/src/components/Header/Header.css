@@ -7,4 +7,10 @@
 }
 
 .username {
+  color: saddlebrown;
+}
+
+.tier {
+  color: rgb(72, 175, 179);
+  font-weight: bold;
 }

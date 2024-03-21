@@ -195,10 +195,10 @@ export const options = {
     legend: {
       labels: {
         font: {
-          size: 14,
+          size: 12,
           weight: "bold",
         },
-        padding: 20,
+        padding: 15,
       },
     },
   },

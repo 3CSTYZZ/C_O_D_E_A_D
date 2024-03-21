@@ -195,7 +195,7 @@ export const options = {
     legend: {
       labels: {
         font: {
-          size: 12,
+          size: 14,
           weight: "bold",
         },
         padding: 15,

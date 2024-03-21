@@ -1,5 +1,12 @@
+import { useTelegram } from "../../hooks/useTelegram";
 import "./Button.css";
 
 export const Button = ({ text }) => {
-  return <button className={"button"}>{text}</button>;
+  const { onMark } = useTelegram();
+
+  return (
+    <button className={"button"} onClick={onMark}>
+      {text}
+    </button>
+  );
 };

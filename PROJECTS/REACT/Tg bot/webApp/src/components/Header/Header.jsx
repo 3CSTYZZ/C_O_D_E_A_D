@@ -19,6 +19,10 @@ export const Header = () => {
         {user?.username === "pavelfedotov99"
           ? user?.username + " is " + storage[7].tier + " player"
           : null}
+        {/* test */}
+        {/* {user?.username + " is "}
+        <span className="tier">{storage[0].tier}</span>
+        {" player"} */}
       </span>
       <Button text={"?"}></Button>
     </div>

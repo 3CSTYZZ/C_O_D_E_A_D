@@ -11,10 +11,9 @@ export const Header = () => {
     <div className={"header"}>
       <span className={"username"}>
         {user?.username === "ecstvzz"
-          ? user?.username +
-            " is " +
-            <span className={"tier"}>{storage[0].tier}</span> +
-            " player"
+          ? (user?.username + " is ")(
+              <span className={"tier"}>{storage[0].tier}</span>
+            )(" player")
           : null}
         {user?.username === "pavelfedotov99"
           ? user?.username + " is " + storage[7].tier + " player"

@@ -57,6 +57,13 @@ export const data = {
       backgroundColor: "rgba(54, 162, 235, 0.3)",
       borderColor: "rgba(54, 162, 235, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(54, 162, 235)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(54, 162, 235)",
     },
     {
       label: "Fedya",
@@ -65,6 +72,13 @@ export const data = {
       backgroundColor: "rgba(255, 230, 171, 0.3)",
       borderColor: "rgba(255, 230, 171, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 230, 171)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 230, 171)",
     },
     {
       label: "Barca",
@@ -73,6 +87,13 @@ export const data = {
       backgroundColor: "rgba(166, 222, 223, 0.3)",
       borderColor: "rgba(166, 222, 223, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(166, 222, 223)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(166, 222, 223)",
     },
     {
       label: "Jane",
@@ -81,6 +102,13 @@ export const data = {
       backgroundColor: "rgba(203, 177, 255, 0.3)",
       borderColor: "rgba(203, 177, 255, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(203, 177, 255)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(203, 177, 255)",
     },
     {
       label: "Nina",
@@ -89,6 +117,13 @@ export const data = {
       backgroundColor: "rgba(255, 206, 160, 0.3)",
       borderColor: "rgba(255, 206, 160, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 206, 160)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 206, 160)",
     },
     {
       label: "Sveta",
@@ -97,6 +132,13 @@ export const data = {
       backgroundColor: "rgba(255, 99, 132, 0.3)",
       borderColor: "rgba(255, 99, 132, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 99, 132)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 99, 132)",
     },
     {
       label: "Paul",
@@ -105,6 +147,13 @@ export const data = {
       backgroundColor: "rgba(54, 162, 235, 0.3)",
       borderColor: "rgba(54, 162, 235, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(54, 162, 235)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(54, 162, 235)",
     },
     {
       label: "Alex",
@@ -113,6 +162,13 @@ export const data = {
       backgroundColor: "rgba(255, 230, 171, 0.3)",
       borderColor: "rgba(255, 230, 171, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 230, 171)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 230, 171)",
     },
     {
       label: "Gleb",
@@ -121,6 +177,13 @@ export const data = {
       backgroundColor: "rgba(166, 222, 223, 0.3)",
       borderColor: "rgba(166, 222, 223, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(166, 222, 223)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(166, 222, 223)",
     },
     {
       label: "Polly",
@@ -129,6 +192,13 @@ export const data = {
       backgroundColor: "rgba(203, 177, 255, 0.3)",
       borderColor: "rgba(203, 177, 255, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(203, 177, 255)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(203, 177, 255)",
     },
     {
       label: "Anya",
@@ -137,6 +207,13 @@ export const data = {
       backgroundColor: "rgba(255, 206, 160, 0.3)",
       borderColor: "rgba(255, 206, 160, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 206, 160)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 206, 160)",
     },
     {
       label: "Ox",
@@ -145,6 +222,13 @@ export const data = {
       backgroundColor: "rgba(255, 99, 132, 0.3)",
       borderColor: "rgba(255, 99, 132, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 99, 132)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 99, 132)",
     },
     {
       label: "Samu",
@@ -153,6 +237,13 @@ export const data = {
       backgroundColor: "rgba(54, 162, 235, 0.3)",
       borderColor: "rgba(54, 162, 235, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(54, 162, 235)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(54, 162, 235)",
     },
     {
       label: "BD",
@@ -161,6 +252,13 @@ export const data = {
       backgroundColor: "rgba(255, 230, 171, 0.3)",
       borderColor: "rgba(255, 230, 171, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 230, 171)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 230, 171)",
     },
     {
       label: "Jenya",
@@ -169,6 +267,13 @@ export const data = {
       backgroundColor: "rgba(166, 222, 223, 0.3)",
       borderColor: "rgba(166, 222, 223, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(166, 222, 223)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(166, 222, 223)",
     },
   ],
 };
@@ -185,7 +290,7 @@ export const options = {
       suggestedMax: 10,
       ticks: {
         stepSize: 2,
-        font: { size: 14, weight: "bold" },
+        font: { size: 12, weight: "bold" },
         backdropColor: "rgba(255, 255, 255, 0)",
       },
       grid: {

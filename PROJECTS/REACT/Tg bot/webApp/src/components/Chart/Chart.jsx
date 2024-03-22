@@ -214,7 +214,7 @@ export const options = {
     tension: {
       duration: 1500,
       easing: "easeInOutQuad",
-      from: 0.2,
+      from: 0.15,
       to: 0,
       loop: true,
     },
@@ -224,8 +224,6 @@ export const options = {
     point: { pointStyle: "rectRot", radius: 1 },
   },
 };
-
-console.log(options);
 
 export const Chart = () => {
   return <Radar options={options} data={data} />;

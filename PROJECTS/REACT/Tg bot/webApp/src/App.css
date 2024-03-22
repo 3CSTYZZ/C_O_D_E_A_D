@@ -47,7 +47,7 @@ body,
 }
 
 .dark-mode {
-  background-color: var(--tg-color-scheme);
+  background-color: cadetblue;
 }
 
 :root {

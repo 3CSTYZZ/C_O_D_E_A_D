@@ -13,7 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {tg.colorScheme === "light" ? (
+        <Header />
+      ) : (
+        <Header className={"dark-mode"} />
+      )}
       <Chart />
     </div>
   );

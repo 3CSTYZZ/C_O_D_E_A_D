@@ -18,15 +18,10 @@ export const Header = () => {
           </>
         )}
 
-        {user?.username === "pavelfedotov99"
-          ? user?.username + " is " + storage[7].tier + " player"
-          : null}
-
-        {/* test */}
-        {tg.colorScheme === "light" && (
+        {user?.username === "pavelfedotov99" && (
           <>
             <span>{user?.username} is </span>
-            <span className="tier">{storage[0].tier}</span>
+            <span className="tier">{storage[7].tier}</span>
             <span> player</span>
           </>
         )}

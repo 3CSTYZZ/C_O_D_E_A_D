@@ -172,7 +172,7 @@ export const options = {
     r: {
       angleLines: {
         display: true,
-        lineWidth: 2,
+        lineWidth: 3,
       },
       suggestedMin: 0,
       suggestedMax: 10,
@@ -181,7 +181,7 @@ export const options = {
         backdropColor: "rgba(255, 255, 255, 0)",
       },
       grid: {
-        lineWidth: 2,
+        lineWidth: 3,
       },
       pointLabels: {
         font: {

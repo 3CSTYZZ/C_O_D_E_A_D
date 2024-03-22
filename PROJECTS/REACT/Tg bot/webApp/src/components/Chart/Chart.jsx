@@ -195,6 +195,7 @@ export const options = {
   plugins: {
     legend: {
       position: "right",
+      maxWidth: 90,
       labels: {
         font: {
           size: 12,
@@ -204,7 +205,7 @@ export const options = {
         // color: "green",
         textAlign: "left",
         usePointStyle: true,
-        pointStyleWidth: 20,
+        pointStyleWidth: 10,
         pointStyle: "crossRot",
       },
     },

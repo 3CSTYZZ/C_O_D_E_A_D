@@ -1,5 +1,11 @@
 .button {
-  padding: 20px 40px;
+  padding: 20px 20px;
   background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+
+.button-dark {
+  padding: 20px 20px;
+  background-color: #95afda;
   color: var(--tg-theme-text-color);
 }

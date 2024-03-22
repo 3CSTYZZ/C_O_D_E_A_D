@@ -1,4 +1,4 @@
-.dark-mode {
-  background-color: var(--tg-theme-bg-color);
+.chart-dark {
+  background-color: #95afda;
   color: var(--tg-theme-text-color);
 }

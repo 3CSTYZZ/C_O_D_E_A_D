@@ -1,20 +1,12 @@
 import { useTelegram } from "../../hooks/useTelegram";
 import "./Button.css";
 
-export const Button = ({ text }) => {
-  const { tg, onMark } = useTelegram();
+export const Button = () => {
+  const { onMark } = useTelegram();
 
   return (
-    <>
-      {tg.colorScheme === "light" ? (
-        <button className={"button"} onClick={onMark}>
-          {text}
-        </button>
-      ) : (
-        <button className={"button-dark"} onClick={onMark}>
-          {text}
-        </button>
-      )}
-    </>
+    <button className={"button"} onClick={onMark}>
+      <img src="/src/img/icons8-question-mark-50.png" alt="" className={"qa"} />
+    </button>
   );
 };

@@ -5,19 +5,27 @@ import { Chart } from "./components/Chart/Chart";
 import "./App.css";
 
 function App() {
-  const { tg } = useTelegram();
-
   useEffect(() => {
     tg.ready();
   }, []);
 
+  const { tg } = useTelegram();
+
   return (
-    <div className="App">
-      <Header />
-      <Chart />
-    </div>
+    <>
+      {tg.colorScheme === "light" ? (
+        <div className={"App-dark"}>
+          <Header />
+          <Chart />
+        </div>
+      ) : (
+        <div className={"App-dark"}>
+          <Header />
+          <Chart />
+        </div>
+      )}
+    </>
   );
 }
 
-console.log(useTelegram().tg.colorScheme);
 export default App;

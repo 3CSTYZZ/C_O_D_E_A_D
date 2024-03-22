@@ -4,54 +4,32 @@ import { dataset } from "../../data/dataset";
 import "./Header.css";
 
 export const Header = () => {
-  const { user, tg } = useTelegram();
+  const { user } = useTelegram();
   const { storage } = dataset();
 
   return (
     <div className={"header"}>
-      {tg.colorScheme === "light" ? (
-        <div className="wrapper">
-          <span className={"username"}>
-            {user?.username === "ecstvzz" && (
-              <>
-                <span>{user?.username} is </span>
-                <span className="tier">{storage[0].tier}</span>
-                <span> player</span>
-              </>
-            )}
+      <span className={"username"}>
+        {/* Max */}
+        {user?.username === "ecstvzz" && (
+          <>
+            <span>{user?.username} is </span>
+            <span className="tier">{storage[0].tier}</span>
+            <span> player</span>
+          </>
+        )}
 
-            {user?.username === "pavelfedotov99" && (
-              <>
-                <span>{user?.username} is </span>
-                <span className="tier">{storage[7].tier}</span>
-                <span> player</span>
-              </>
-            )}
-          </span>
-          <Button text={"?"}></Button>
-        </div>
-      ) : (
-        <div className="wrapper-dark">
-          <span className={"username"}>
-            {user?.username === "ecstvzz" && (
-              <>
-                <span>{user?.username} is </span>
-                <span className="tier">{storage[0].tier}</span>
-                <span> player</span>
-              </>
-            )}
+        {/* Pasha */}
+        {user?.username === "pavelfedotov99" && (
+          <>
+            <span>{user?.username} is </span>
+            <span className="tier">{storage[7].tier}</span>
+            <span> player</span>
+          </>
+        )}
+      </span>
 
-            {user?.username === "pavelfedotov99" && (
-              <>
-                <span>{user?.username} is </span>
-                <span className="tier">{storage[7].tier}</span>
-                <span> player</span>
-              </>
-            )}
-          </span>
-          <Button text={"?"}></Button>
-        </div>
-      )}
+      <Button></Button>
     </div>
   );
 };

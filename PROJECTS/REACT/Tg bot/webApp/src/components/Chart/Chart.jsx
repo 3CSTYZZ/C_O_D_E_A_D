@@ -9,7 +9,6 @@ import {
 } from "chart.js";
 import { Radar } from "react-chartjs-2";
 import { dataset } from "../../data/dataset";
-import { useTelegram } from "../../hooks/useTelegram";
 
 ChartJS.register(
   RadialLinearScale,
@@ -21,7 +20,6 @@ ChartJS.register(
 );
 
 const { storage } = dataset();
-const { tg } = useTelegram();
 
 // main data of chart
 export const data = {
@@ -216,13 +214,5 @@ export const options = {
 };
 
 export const Chart = () => {
-  return (
-    <>
-      {tg.colorScheme === "light" ? (
-        <Radar options={options} data={data} />
-      ) : (
-        <Radar options={options} data={data} className={"chart-dark"} />
-      )}
-    </>
-  );
+  return <Radar options={options} data={data} />;
 };

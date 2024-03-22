@@ -40,10 +40,13 @@ button {
   cursor: pointer;
 }
 
-body,
-.App {
+body {
   background-color: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
+}
+
+.App-dark {
+  background-color: #95afda;
 }
 
 :root {

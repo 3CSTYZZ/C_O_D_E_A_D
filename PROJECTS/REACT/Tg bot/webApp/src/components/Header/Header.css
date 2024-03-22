@@ -1,23 +1,16 @@
-.wrapper {
+.header {
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
-}
-
-.wrapper-dark {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  background-color: #95afda;
 }
 
 .username {
-  color: saddlebrown;
+  padding-left: 40px;
+  color: var(--tg-theme-text-color);
 }
 
 .tier {
-  color: rgb(72, 175, 179);
+  color: rgb(255, 145, 126);
   font-weight: bold;
 }

@@ -9,24 +9,49 @@ export const Header = () => {
 
   return (
     <div className={"header"}>
-      <span className={"username"}>
-        {user?.username === "ecstvzz" && (
-          <>
-            <span>{user?.username} is </span>
-            <span className="tier">{storage[0].tier}</span>
-            <span> player</span>
-          </>
-        )}
+      {tg.colorScheme === "light" ? (
+        <div className="wrapper">
+          <span className={"username"}>
+            {user?.username === "ecstvzz" && (
+              <>
+                <span>{user?.username} is </span>
+                <span className="tier">{storage[0].tier}</span>
+                <span> player</span>
+              </>
+            )}
 
-        {user?.username === "pavelfedotov99" && (
-          <>
-            <span>{user?.username} is </span>
-            <span className="tier">{storage[7].tier}</span>
-            <span> player</span>
-          </>
-        )}
-      </span>
-      <Button text={"?"}></Button>
+            {user?.username === "pavelfedotov99" && (
+              <>
+                <span>{user?.username} is </span>
+                <span className="tier">{storage[7].tier}</span>
+                <span> player</span>
+              </>
+            )}
+          </span>
+          <Button text={"?"}></Button>
+        </div>
+      ) : (
+        <div className="wrapper-dark">
+          <span className={"username"}>
+            {user?.username === "ecstvzz" && (
+              <>
+                <span>{user?.username} is </span>
+                <span className="tier">{storage[0].tier}</span>
+                <span> player</span>
+              </>
+            )}
+
+            {user?.username === "pavelfedotov99" && (
+              <>
+                <span>{user?.username} is </span>
+                <span className="tier">{storage[7].tier}</span>
+                <span> player</span>
+              </>
+            )}
+          </span>
+          <Button text={"?"}></Button>
+        </div>
+      )}
     </div>
   );
 };

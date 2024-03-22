@@ -6,7 +6,11 @@ export const Button = () => {
 
   return (
     <button className={"button"} onClick={onMark}>
-      <img src="/src/img/icons8-question-mark-50.png" alt="" className={"qa"} />
+      <img
+        src="../../../src/img/icons8-question-mark-50.png"
+        alt=""
+        className={"qa"}
+      />
     </button>
   );
 };

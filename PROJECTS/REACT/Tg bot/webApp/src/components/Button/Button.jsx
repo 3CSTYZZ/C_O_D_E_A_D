@@ -16,11 +16,22 @@ export const Button = () => {
       {isShown && (
         <div className={"tooltip"}>
           <ul className={"list"}>
-            
-            <li className={"item"}>Tier-S: 65+ pts</li>
-            <li className={"item"}>Tier-A: 60+ pts</li>
-            <li className={"item"}>Tier-B: 55+ pts</li>
-            <li className={"item"}>Tier-C: 50+ pts</li>
+            <li className={"item"}>
+              Tier-
+              <span className="rank">S</span>: 65+ pts
+            </li>
+            <li className={"item"}>
+              Tier-
+              <span className="rank">A</span>: 60+ pts
+            </li>
+            <li className={"item"}>
+              Tier-
+              <span className="rank">B</span>: 55+ pts
+            </li>
+            <li className={"item"}>
+              Tier-
+              <span className="rank">C</span>: 50+ pts
+            </li>
           </ul>
 
           {user?.username === "ecstvzz" && (

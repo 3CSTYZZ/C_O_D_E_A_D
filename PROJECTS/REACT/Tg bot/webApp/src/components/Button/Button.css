@@ -39,6 +39,10 @@
   font-family: "BarlowCondensed";
 }
 
+.rank {
+  color: rgb(22, 212, 255);
+}
+
 .total {
   text-align: center;
   font-family: "BarlowCondensed";

@@ -185,6 +185,7 @@ export const options = {
       suggestedMax: 10,
       ticks: {
         stepSize: 2,
+        font: { size: 14, weight: "bold" },
         backdropColor: "rgba(255, 255, 255, 0)",
       },
       grid: {

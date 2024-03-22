@@ -197,14 +197,14 @@ export const options = {
       position: "bottom",
       labels: {
         font: {
-          size: 12,
+          size: 14,
           weight: "bold",
         },
         padding: 20,
         // color: "green",
         textAlign: "left",
         usePointStyle: true,
-        pointStyleWidth: 15,
+        pointStyleWidth: 14,
         pointStyle: "rectRot",
       },
     },

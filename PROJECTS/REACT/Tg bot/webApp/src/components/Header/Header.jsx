@@ -15,20 +15,16 @@ export const Header = () => {
           <>
             <span>{user?.username} is </span>
             <span className="tier">{storage[0].tier}</span>
-            <span> player</span>
+            <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
           </>
         )}
-
-        <span>{user?.username} is </span>
-        <span className="tier">{storage[0].tier}</span>
-        <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
 
         {/* Pasha */}
         {user?.username === "pavelfedotov99" && (
           <>
             <span>{user?.username} is </span>
             <span className="tier">{storage[7].tier}</span>
-            <span> player</span>
+            <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
           </>
         )}
       </span>

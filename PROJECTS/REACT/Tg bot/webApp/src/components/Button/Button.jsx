@@ -16,13 +16,14 @@ export const Button = () => {
       {isShown && (
         <div className={"tooltip"}>
           <ul className={"list"}>
+            
             <li className={"item"}>Tier-S: 65+ pts</li>
             <li className={"item"}>Tier-A: 60+ pts</li>
             <li className={"item"}>Tier-B: 55+ pts</li>
             <li className={"item"}>Tier-C: 50+ pts</li>
           </ul>
 
-          {user?.username === "3cstvzz" && (
+          {user?.username === "ecstvzz" && (
             <div className={"total"}>Total: 72 pts</div>
           )}
         </div>

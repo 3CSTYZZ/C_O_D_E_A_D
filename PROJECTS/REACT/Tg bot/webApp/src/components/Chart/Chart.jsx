@@ -42,6 +42,13 @@ export const data = {
       backgroundColor: "rgba(255, 99, 132, 0.3)",
       borderColor: "rgba(255, 99, 132, 1)",
       borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 99, 132)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 99, 132)",
     },
     {
       label: "Tema",
@@ -221,7 +228,7 @@ export const options = {
   },
 
   elements: {
-    point: { pointStyle: "circle", radius: 1 },
+    point: { pointStyle: "circle", radius: 5 },
   },
 };
 

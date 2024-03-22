@@ -19,10 +19,6 @@ export const Header = () => {
           </>
         )}
 
-        <span>{user?.username} is </span>
-        <span className="tier">{storage[0].tier}</span>
-        <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
-
         {/* Pasha */}
         {user?.username === "pavelfedotov99" && (
           <>

@@ -9,10 +9,12 @@
   padding-left: 20px;
   color: var(--tg-theme-text-color);
   font-family: "BarlowCondensed";
+  font-size: 18px;
 }
 
 .tier {
-  color: rgb(217, 255, 30);
+  color: rgb(207, 243, 27);
   font-family: "BarlowCondensed";
   font-weight: 700;
+  font-size: 20px;
 }

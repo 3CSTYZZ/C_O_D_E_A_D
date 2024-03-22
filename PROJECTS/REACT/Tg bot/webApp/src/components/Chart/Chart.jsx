@@ -221,7 +221,7 @@ export const options = {
   },
 
   elements: {
-    point: { pointStyle: "rectRot", radius: 1 },
+    point: { pointStyle: "circle", radius: 1 },
   },
 };
 

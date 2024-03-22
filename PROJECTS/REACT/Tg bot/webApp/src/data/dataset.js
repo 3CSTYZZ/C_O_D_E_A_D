@@ -4,6 +4,7 @@ export function dataset() {
     {
       max: [10, 8, 10, 9, 8, 9, 9, 9],
       tier: "SS",
+      total: 72,
     },
     {
       tema: [8, 7, 6, 8, 8, 7, 8, 6],

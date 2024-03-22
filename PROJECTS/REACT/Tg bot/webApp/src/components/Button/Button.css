@@ -13,7 +13,10 @@
 
 .tooltip {
   position: absolute;
-  top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 56px;
   right: 30px;
   width: 100px;
   height: 150px;
@@ -23,4 +26,21 @@
   -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.item {
+  font-family: "BarlowCondensed";
+}
+
+.total {
+  text-align: center;
+  font-family: "BarlowCondensed";
+  font-weight: 700;
 }

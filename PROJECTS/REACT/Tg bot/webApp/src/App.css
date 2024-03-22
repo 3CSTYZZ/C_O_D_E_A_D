@@ -43,6 +43,7 @@ button {
 body {
   background-color: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
+  font-family: "OpenSans", sans-serif;
 }
 
 .App-dark {
@@ -56,4 +57,22 @@ body {
   --semi-black: #333;
   /* UI */
   --purple-ui: #7943a4;
+}
+
+@font-face {
+  font-family: "BarlowCondensed";
+  src: local("BarlowCondensed-Regular"),
+    url("../src/fonts/BarlowCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BarlowCondensed";
+  src: local("BarlowCondensed-Bold"),
+    url("../src/fonts/BarlowCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }

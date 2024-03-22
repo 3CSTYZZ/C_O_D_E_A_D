@@ -8,9 +8,11 @@
 .username {
   padding-left: 20px;
   color: var(--tg-theme-text-color);
+  font-family: "BarlowCondensed";
 }
 
 .tier {
-  color: rgb(255, 145, 126);
-  font-weight: bold;
+  color: rgb(218, 254, 39);
+  font-family: "BarlowCondensed";
+  font-weight: 700;
 }

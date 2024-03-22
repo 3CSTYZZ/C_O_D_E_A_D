@@ -191,17 +191,25 @@ export const options = {
       },
     },
   },
+
   plugins: {
     legend: {
+      position: "right",
       labels: {
         font: {
           size: 12,
           weight: "bold",
         },
-        padding: 16,
+        padding: 20,
+        // color: "green",
+        textAlign: "left",
+        usePointStyle: true,
+        pointStyleWidth: 20,
+        pointStyle: "crossRot",
       },
     },
   },
+
   animations: {
     tension: {
       duration: 1500,
@@ -211,7 +219,13 @@ export const options = {
       loop: true,
     },
   },
+
+  elements: {
+    point: { pointStyle: "rect", radius: 10 },
+  },
 };
+
+console.log(options);
 
 export const Chart = () => {
   return <Radar options={options} data={data} />;

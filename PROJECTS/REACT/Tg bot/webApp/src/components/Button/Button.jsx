@@ -13,6 +13,7 @@ export const Button = () => {
   return (
     <>
       <button className={"button"} onClick={onTooltip}></button>
+      <div className="spinner"></div>
       {isShown && (
         <div className={"tooltip"}>
           <ul className={"list"}>

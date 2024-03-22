@@ -11,6 +11,9 @@
   position: relative;
 }
 
+.button:active {
+}
+
 .tooltip {
   position: absolute;
   display: flex;
@@ -18,10 +21,10 @@
   justify-content: space-around;
   top: 56px;
   right: 30px;
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(5, 150, 182, 0.37);
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
@@ -32,19 +35,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .item {
   font-family: "BarlowCondensed";
+  font-size: 20px;
 }
 
 .rank {
   color: rgb(22, 212, 255);
+  font-weight: 700;
 }
 
 .total {
   text-align: center;
   font-family: "BarlowCondensed";
   font-weight: 700;
+  font-size: 20px;
+}
+
+.spinner {
+  position: absolute;
+  top: 19px;
+  right: 30px;
+  z-index: -13;
+  background-image: linear-gradient(rgb(186, 66, 255) 35%, rgb(0, 225, 255));
+  width: 30px;
+  height: 30px;
+  animation: spinning 1.7s linear infinite;
+  text-align: center;
+  border-radius: 50px;
+  filter: blur(5px);
+  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255),
+    0px 5px 20px 0px rgb(0, 225, 255);
+}
+
+@keyframes spinning {
+  to {
+    transform: rotate(360deg);
+  }
 }

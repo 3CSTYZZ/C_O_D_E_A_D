@@ -11,9 +11,6 @@
   position: relative;
 }
 
-.button:active {
-}
-
 .tooltip {
   position: absolute;
   display: flex;

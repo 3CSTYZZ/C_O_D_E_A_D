@@ -1,7 +1,10 @@
 import { useTelegram } from "../../hooks/useTelegram";
-import { Button } from "../Button/Button";
+import { Button } from "../InfoButton/InfoButton";
 import { dataset } from "../../data/dataset";
+import { PlayerButton } from "../PlayerButton/PlayerButton";
+import { User } from "../User/User";
 import "./Header.css";
+import "../../sounds/urr-cute.mp3";
 
 export const Header = () => {
   const { user } = useTelegram();
@@ -10,25 +13,9 @@ export const Header = () => {
   return (
     <div className={"header"}>
       <span className={"username"}>
-        {/* Max */}
-        {user?.username === "ecstvzz" && (
-          <>
-            <span>{user?.username} is </span>
-            <span className="tier">{storage[0].tier}</span>
-            <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
-          </>
-        )}
-
-        {/* Pasha */}
-        {user?.username === "pavelfedotov99" && (
-          <>
-            <span>{user?.username} is </span>
-            <span className="tier">{storage[7].tier}</span>
-            <span> player ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ</span>
-          </>
-        )}
+        <User></User>
+        <PlayerButton></PlayerButton>
       </span>
-
       <Button></Button>
     </div>
   );

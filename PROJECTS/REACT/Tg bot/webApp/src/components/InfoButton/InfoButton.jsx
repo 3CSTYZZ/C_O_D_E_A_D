@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
-import "./Button.css";
+import "./InfoButton.css";
 
 export const Button = () => {
   const [isShown, setIsShown] = useState(false);
@@ -35,8 +35,14 @@ export const Button = () => {
             </li>
           </ul>
 
+          {/* Max */}
           {user?.username === "ecstvzz" && (
             <div className={"total"}>Total: 72 pts</div>
+          )}
+
+          {/* Paul */}
+          {user?.username === "pavelfedotov99" && (
+            <div className={"total"}>Total: 60 pts</div>
           )}
         </div>
       )}

@@ -275,6 +275,36 @@ export const data = {
       pointHoverBackgroundColor: "#fff",
       pointHoverBorderColor: "rgba(166, 222, 223)",
     },
+    {
+      label: "Vera",
+      data: storage[16].vera,
+      hidden: true,
+      backgroundColor: "rgba(203, 177, 255, 0.3)",
+      borderColor: "rgba(203, 177, 255, 1)",
+      borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(203, 177, 255)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(203, 177, 255)",
+    },
+    {
+      label: "Dante",
+      data: storage[17].dante,
+      hidden: true,
+      backgroundColor: "rgba(255, 206, 160, 0.3)",
+      borderColor: "rgba(255, 206, 160, 1)",
+      borderWidth: 4,
+
+      fill: true,
+      pointBorderWidth: 1,
+      pointBackgroundColor: "rgba(255, 206, 160)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgba(255, 206, 160)",
+    },
   ],
 };
 

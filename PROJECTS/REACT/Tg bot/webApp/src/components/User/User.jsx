@@ -23,6 +23,14 @@ export const User = () => {
           <span className="tier">{storage[7].tier}</span>
         </>
       )}
+
+      {/* Annushka */}
+      {user?.username === "anna_alekseevna2206" && (
+        <>
+          <span>{user?.username} is </span>
+          <span className="tier">{storage[11].tier}</span>
+        </>
+      )}
     </>
   );
 };

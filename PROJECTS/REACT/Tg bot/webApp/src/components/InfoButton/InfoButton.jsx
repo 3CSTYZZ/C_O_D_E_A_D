@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTelegram } from "../../hooks/useTelegram";
 import "./InfoButton.css";
 
-export const Button = () => {
+export const InfoButton = () => {
   const [isShown, setIsShown] = useState(false);
   const { user } = useTelegram();
 

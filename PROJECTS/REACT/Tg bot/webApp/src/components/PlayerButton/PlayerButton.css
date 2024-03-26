@@ -1,5 +1,6 @@
 .cat {
   color: var(--tg-theme-text-color);
+  padding: 4px 4px;
 }
 
 @-webkit-keyframes hvr-wobble-horizontal {

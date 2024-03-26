@@ -1,8 +1,8 @@
 import { useTelegram } from "../../hooks/useTelegram";
 import { dataset } from "../../data/dataset";
-import "./User.css";
+import "./UserTier.css";
 
-export const User = () => {
+export const UserTier = () => {
   const { user } = useTelegram();
   const { storage } = dataset();
 

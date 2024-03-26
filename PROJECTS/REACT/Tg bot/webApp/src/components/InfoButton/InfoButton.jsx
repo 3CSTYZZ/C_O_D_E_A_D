@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { useTelegram } from "../../hooks/useTelegram";
+import { UserTotal } from "../UserTotal/UserTotal";
 import "./InfoButton.css";
 
 export const InfoButton = () => {
   const [isShown, setIsShown] = useState(false);
-  const { user } = useTelegram();
 
   const onTooltip = () => {
     setIsShown((current) => !current);
@@ -35,15 +34,7 @@ export const InfoButton = () => {
             </li>
           </ul>
 
-          {/* Max */}
-          {user?.username === "ecstvzz" && (
-            <div className={"total"}>Total: 72 pts</div>
-          )}
-
-          {/* Paul */}
-          {user?.username === "pavelfedotov99" && (
-            <div className={"total"}>Total: 60 pts</div>
-          )}
+          <UserTotal />
         </div>
       )}
     </>

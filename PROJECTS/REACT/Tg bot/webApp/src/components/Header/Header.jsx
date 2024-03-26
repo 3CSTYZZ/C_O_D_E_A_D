@@ -7,11 +7,11 @@ export const Header = () => {
   return (
     <div className={"header"}>
       <span className={"username"}>
-        <UserTier></UserTier>
-        <PlayerButton></PlayerButton>
+        <UserTier />
+        <PlayerButton />
       </span>
 
-      <InfoButton></InfoButton>
+      <InfoButton />
     </div>
   );
 };

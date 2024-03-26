@@ -46,8 +46,13 @@ body {
   font-family: "OpenSans", sans-serif;
 }
 
+canvas {
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+}
+
 .App-dark {
-  background-color: #95afda;
+  /* background-color: #95afda; */
 }
 
 :root {

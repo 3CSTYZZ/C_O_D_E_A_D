@@ -9,6 +9,7 @@ import {
 } from "chart.js";
 import { Radar } from "react-chartjs-2";
 import { dataset } from "../../data/dataset";
+import './Chart.css'
 
 ChartJS.register(
   RadialLinearScale,
@@ -369,5 +370,5 @@ export const options = {
 };
 
 export const Chart = () => {
-  return <Radar options={options} data={data} />;
+  return <Radar options={options} data={data} className={'dark-mode'}/>;
 };

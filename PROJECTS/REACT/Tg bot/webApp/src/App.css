@@ -46,24 +46,6 @@ body {
   font-family: "OpenSans", sans-serif;
 }
 
-canvas {
-  background-color: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
-}
-
-.App-dark {
-  /* background-color: #95afda; */
-}
-
-:root {
-  /* primary */
-  --white: #fff;
-  --black: #000;
-  --semi-black: #333;
-  /* UI */
-  --purple-ui: #7943a4;
-}
-
 @font-face {
   font-family: "BarlowCondensed";
   src: local("BarlowCondensed-Regular"),

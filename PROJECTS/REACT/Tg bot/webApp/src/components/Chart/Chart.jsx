@@ -9,7 +9,7 @@ import {
 } from "chart.js";
 import { Radar } from "react-chartjs-2";
 import { dataset } from "../../data/dataset";
-import './Chart.css'
+import { useTelegram } from "../../hooks/useTelegram";
 
 ChartJS.register(
   RadialLinearScale,
@@ -21,6 +21,7 @@ ChartJS.register(
 );
 
 const { storage } = dataset();
+const { tg } = useTelegram();
 
 // main data of chart
 export const data = {
@@ -345,7 +346,70 @@ export const options = {
           weight: "bold",
         },
         padding: 20,
-        // color: "green",
+        textAlign: "left",
+        usePointStyle: true,
+        pointStyleWidth: 14,
+        pointStyle: "rectRot",
+      },
+    },
+  },
+
+  animations: {
+    tension: {
+      duration: 1500,
+      easing: "easeInOutQuad",
+      from: 0.15,
+      to: 0,
+      loop: true,
+    },
+  },
+
+  elements: {
+    point: { pointStyle: "circle", radius: 4 },
+  },
+};
+
+// options for dark chart
+export const optionsDark = {
+  scales: {
+    r: {
+      angleLines: {
+        display: true,
+        lineWidth: 3,
+        color: "rgba(223, 243, 255, 0.5)",
+      },
+      suggestedMin: 0,
+      suggestedMax: 10,
+      ticks: {
+        stepSize: 2,
+        font: { size: 12, weight: "bold" },
+        backdropColor: "rgba(255, 255, 255, 0)",
+        color: "rgba(255, 255, 255)",
+      },
+      grid: {
+        lineWidth: 3,
+        color: "rgba(223, 243, 255, 0.5)",
+      },
+      pointLabels: {
+        font: {
+          size: 14,
+          weight: "bold",
+        },
+        color: "rgba(225, 225, 225)",
+      },
+    },
+  },
+
+  plugins: {
+    legend: {
+      position: "bottom",
+      labels: {
+        font: {
+          size: 14,
+          weight: "bold",
+        },
+        padding: 20,
+        color: "rgba(225, 225, 225)",
         textAlign: "left",
         usePointStyle: true,
         pointStyleWidth: 14,
@@ -370,5 +434,13 @@ export const options = {
 };
 
 export const Chart = () => {
-  return <Radar options={options} data={data} className={'dark-mode'}/>;
+  return (
+    <>
+      {tg.colorScheme === "light" ? (
+        <Radar options={options} data={data} />
+      ) : (
+        <Radar options={optionsDark} data={data} />
+      )}
+    </>
+  );
 };

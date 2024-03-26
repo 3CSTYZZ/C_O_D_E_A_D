@@ -6,9 +6,15 @@ export function useTelegram() {
     sound.play();
   }
 
+  function cssvar(name) {
+    return getComputedStyle(document.documentElement).getPropertyValue(name);
+  }
+
   return {
     tg,
     user: tg.initDataUnsafe?.user,
     handleClick,
+    cssvar,
   };
 }
+

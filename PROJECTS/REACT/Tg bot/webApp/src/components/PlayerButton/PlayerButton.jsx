@@ -1,6 +1,6 @@
 import { useTelegram } from "../../hooks/useTelegram";
 import "./PlayerButton.css";
-import "../../sounds/urr-cute.mp3";
+import "../../../public/sounds/urr-cute.mp3";
 
 export const PlayerButton = () => {
   const { handleClick } = useTelegram();
@@ -13,7 +13,7 @@ export const PlayerButton = () => {
         ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ
       </button>
       <audio id="meow">
-        <source src={"./src/sounds/urr-cute.mp3"} type="audio/mp3" />
+        <source src={"/sounds/urr-cute.mp3"} type="audio/mp3" />
       </audio>
     </>
   );

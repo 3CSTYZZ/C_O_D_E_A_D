@@ -1,4 +1,4 @@
-// new lvl stats / lvl summary ? / weather
+// new lvl stats / weather
 
 // initialization
 const TelegramBot = require("node-telegram-bot-api");

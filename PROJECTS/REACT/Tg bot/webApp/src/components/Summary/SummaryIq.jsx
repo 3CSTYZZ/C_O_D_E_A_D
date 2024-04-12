@@ -9,92 +9,92 @@ export const SummaryIq = () => {
   return (
     <>
       {/* Max */}
-      {user?.username === "ecstvzz" && (
+      {user?.username === storage[0].id && (
         <span className="summary__mark">{storage[0].max[6]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === storage[1].id && (
         <span className="summary__mark">{storage[1].tema[6]}</span>
       )}
 
-      {/* Max */}
-      {user?.username === "Amblig" && (
+      {/* Fedya */}
+      {user?.username === storage[2].id && (
         <span className="summary__mark">{storage[2].fedya[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "vladoosssssss" && (
+      {/* Barca */}
+      {user?.username === storage[3].id && (
         <span className="summary__mark">{storage[3].barca[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "JanineErofeeva" && (
+      {/* Jane */}
+      {user?.username === storage[4].id && (
         <span className="summary__mark">{storage[4].jane[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "nbulavina" && (
+      {/* Nina */}
+      {user?.username === storage[5].id && (
         <span className="summary__mark">{storage[5].nina[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "antonets_svetlana" && (
+      {/* Sveta */}
+      {user?.username === storage[6].id && (
         <span className="summary__mark">{storage[6].sveta[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "pavelfedotov99" && (
+      {/* Paul */}
+      {user?.username === storage[7].id && (
         <span className="summary__mark">{storage[7].paul[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "saaaaaaaaasha" && (
+      {/* Sasha */}
+      {user?.username === storage[8].id && (
         <span className="summary__mark">{storage[8].alex[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "Glebporotikov" && (
+      {/* Gleb */}
+      {user?.username === storage[9].id && (
         <span className="summary__mark">{storage[9].gleb[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "PolinaPorotikova" && (
+      {/* Polly */}
+      {user?.username === storage[10].id && (
         <span className="summary__mark">{storage[10].polly[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "anna_alekseevna2206" && (
+      {/* Anya */}
+      {user?.username === storage[11].id && (
         <span className="summary__mark">{storage[11].anya[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "oxxana0" && (
+      {/* Oxana */}
+      {user?.username === storage[12].id && (
         <span className="summary__mark">{storage[12].ox[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "Evillcola" && (
+      {/* Samurai */}
+      {user?.username === storage[13].id && (
         <span className="summary__mark">{storage[13].samu[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "krofly03" && (
+      {/* BD */}
+      {user?.username === storage[14].id && (
         <span className="summary__mark">{storage[14].bd[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "eva_4li" && (
+      {/* Janya */}
+      {user?.username === storage[15].id && (
         <span className="summary__mark">{storage[15].jenya[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "V_SV06" && (
+      {/* Vera */}
+      {user?.username === storage[16].id && (
         <span className="summary__mark">{storage[16].vera[6]}</span>
       )}
 
-      {/* Tema */}
-      {user?.username === "jdlegendary" && (
+      {/* Dante */}
+      {user?.username === storage[17].id && (
         <span className="summary__mark">{storage[17].dante[6]}</span>
       )}
     </>

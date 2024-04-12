@@ -74,3 +74,16 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+@keyframes do-levitation {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translateX(-13%);
+  }
+}
+
+.levitate {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+}

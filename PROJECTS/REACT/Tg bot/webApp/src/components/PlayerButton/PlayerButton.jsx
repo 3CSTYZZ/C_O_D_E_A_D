@@ -8,7 +8,10 @@ export const PlayerButton = () => {
   return (
     <>
       <span> player </span>
-      <button className={"cat hvr-wobble-horizontal"} onClick={handleClick}>
+      <button
+        className={"cat hvr-wobble-horizontal levitate"}
+        onClick={handleClick}
+      >
         {" "}
         ฅ/ᐠ‸⑅‸ ᐟ\ฅﾉ ᵖᵘʳʳ
       </button>

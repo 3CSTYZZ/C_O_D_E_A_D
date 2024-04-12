@@ -9,7 +9,7 @@ export const UserTier = () => {
   return (
     <>
       {/* Max */}
-      {user?.username === "ecstvzz" && (
+      {user?.username === storage[0].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[0].tier}</span>
@@ -17,7 +17,7 @@ export const UserTier = () => {
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === storage[1].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[1].tier}</span>
@@ -25,7 +25,7 @@ export const UserTier = () => {
       )}
 
       {/* Fedya */}
-      {user?.username === "Amblig" && (
+      {user?.username === storage[2].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[2].tier}</span>
@@ -33,7 +33,7 @@ export const UserTier = () => {
       )}
 
       {/* Barca */}
-      {user?.username === "vladoosssssss" && (
+      {user?.username === storage[3].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[3].tier}</span>
@@ -41,7 +41,7 @@ export const UserTier = () => {
       )}
 
       {/* Jane */}
-      {user?.username === "JanineErofeeva" && (
+      {user?.username === storage[4].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[4].tier}</span>
@@ -49,7 +49,7 @@ export const UserTier = () => {
       )}
 
       {/* Nina */}
-      {user?.username === "nbulavina" && (
+      {user?.username === storage[5].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[5].tier}</span>
@@ -57,7 +57,7 @@ export const UserTier = () => {
       )}
 
       {/* Sveta */}
-      {user?.username === "antonets_svetlana" && (
+      {user?.username === storage[6].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[6].tier}</span>
@@ -65,7 +65,7 @@ export const UserTier = () => {
       )}
 
       {/* Paul */}
-      {user?.username === "pavelfedotov99" && (
+      {user?.username === storage[7].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[7].tier}</span>
@@ -73,7 +73,7 @@ export const UserTier = () => {
       )}
 
       {/* Alex */}
-      {user?.username === "saaaaaaaaasha" && (
+      {user?.username === storage[8].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[8].tier}</span>
@@ -81,7 +81,7 @@ export const UserTier = () => {
       )}
 
       {/* Gleb */}
-      {user?.username === "Glebporotikov" && (
+      {user?.username === storage[9].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[9].tier}</span>
@@ -89,7 +89,7 @@ export const UserTier = () => {
       )}
 
       {/* Polly */}
-      {user?.username === "PolinaPorotikova" && (
+      {user?.username === storage[10].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[10].tier}</span>
@@ -97,7 +97,7 @@ export const UserTier = () => {
       )}
 
       {/* Annushka */}
-      {user?.username === "anna_alekseevna2206" && (
+      {user?.username === storage[11].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[11].tier}</span>
@@ -105,7 +105,7 @@ export const UserTier = () => {
       )}
 
       {/* Oxana */}
-      {user?.username === "oxxana0" && (
+      {user?.username === storage[12].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[12].tier}</span>
@@ -113,7 +113,7 @@ export const UserTier = () => {
       )}
 
       {/* Samurai */}
-      {user?.username === "Evillcola" && (
+      {user?.username === storage[13].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[13].tier}</span>
@@ -121,7 +121,7 @@ export const UserTier = () => {
       )}
 
       {/* BD */}
-      {user?.username === "krofly03" && (
+      {user?.username === storage[14].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[14].tier}</span>
@@ -129,7 +129,7 @@ export const UserTier = () => {
       )}
 
       {/* Jenya */}
-      {user?.username === "eva_4li" && (
+      {user?.username === storage[15].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[15].tier}</span>
@@ -137,7 +137,7 @@ export const UserTier = () => {
       )}
 
       {/* Vera */}
-      {user?.username === "V_SV06" && (
+      {user?.username === storage[16].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[16].tier}</span>
@@ -145,7 +145,7 @@ export const UserTier = () => {
       )}
 
       {/* Dante */}
-      {user?.username === "jdlegendary" && (
+      {user?.username === storage[17].id && (
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[17].tier}</span>

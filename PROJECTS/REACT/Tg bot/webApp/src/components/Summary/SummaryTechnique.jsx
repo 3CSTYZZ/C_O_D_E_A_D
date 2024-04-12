@@ -19,82 +19,82 @@ export const SummaryTechnique = () => {
       )}
 
       {/* Max */}
-      {user?.username === "ecstvzz" && (
+      {user?.username === "Amblig" && (
         <span className="summary__mark">{storage[2].fedya[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "vladoosssssss" && (
         <span className="summary__mark">{storage[3].barca[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "JanineErofeeva" && (
         <span className="summary__mark">{storage[4].jane[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "nbulavina" && (
         <span className="summary__mark">{storage[5].nina[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "antonets_svetlana" && (
         <span className="summary__mark">{storage[6].sveta[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "pavelfedotov99" && (
         <span className="summary__mark">{storage[7].paul[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "saaaaaaaaasha" && (
         <span className="summary__mark">{storage[8].alex[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "Glebporotikov" && (
         <span className="summary__mark">{storage[9].gleb[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "PolinaPorotikova" && (
         <span className="summary__mark">{storage[10].polly[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "anna_alekseevna2206" && (
         <span className="summary__mark">{storage[11].anya[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "oxxana0" && (
         <span className="summary__mark">{storage[12].ox[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "Evillcola" && (
         <span className="summary__mark">{storage[13].samu[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "krofly03" && (
         <span className="summary__mark">{storage[14].bd[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "eva_4li" && (
         <span className="summary__mark">{storage[15].jenya[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "V_SV06" && (
         <span className="summary__mark">{storage[16].vera[4]}</span>
       )}
 
       {/* Tema */}
-      {user?.username === "temasafonov" && (
+      {user?.username === "jdlegendary" && (
         <span className="summary__mark">{storage[17].dante[4]}</span>
       )}
     </>

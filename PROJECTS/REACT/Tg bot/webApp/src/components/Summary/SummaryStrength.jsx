@@ -9,9 +9,14 @@ export const SummaryStrength = () => {
   return (
     <>
       {/* Max */}
-      {user?.username === storage[0].id && (
-        <span className="summary__mark">{storage[0].max[0]}</span>
-      )}
+      {user?.username === storage[0].id &&
+        (storage[0].max[0] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[0].max[0]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[0].max[0]}</span>
+        ))}
 
       {/* Tema */}
       {user?.username === storage[1].id && (

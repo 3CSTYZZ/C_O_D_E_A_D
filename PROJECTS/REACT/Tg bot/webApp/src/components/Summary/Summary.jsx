@@ -1,14 +1,21 @@
-import { dataset } from "../../data/dataset";
 import { useTelegram } from "../../hooks/useTelegram";
+import { SummaryStrength } from "./SummaryStrength";
+import { SummarySpeed } from "./SummarySpeed";
+import { SummaryReaction } from "./SummaryReaction";
+import { SummaryJump } from "./SummaryJump";
+import { SummaryTechnique } from "./SummaryTechnique";
+import { SummaryStamina } from "./SummaryStamina";
+import { SummaryIq } from "./SummaryIq";
+import { SummaryMental } from "./SummaryMental";
 import "./Summary.css";
 
-const { storage } = dataset();
 const { tg } = useTelegram();
 
 export const Summary = () => {
   return (
     <div className="summary">
       <h3 className="summary__title">Summary</h3>
+
       <ul className="summary__content">
         <li className="summary__item">
           {tg.colorScheme === "light" ? (
@@ -20,7 +27,7 @@ export const Summary = () => {
               alt="strength"
             />
           )}
-          <span className="summary__mark">{storage[0].max[0]}</span>
+          <SummaryStrength />
         </li>
 
         <li className="summary__item">
@@ -33,7 +40,7 @@ export const Summary = () => {
               alt="speed"
             />
           )}
-          <span className="summary__mark">{storage[0].max[1]}</span>
+          <SummarySpeed />
         </li>
 
         <li className="summary__item">
@@ -46,7 +53,7 @@ export const Summary = () => {
               alt="reaction"
             />
           )}
-          <span className="summary__mark">{storage[0].max[2]}</span>
+          <SummaryReaction />
         </li>
 
         <li className="summary__item">
@@ -59,7 +66,7 @@ export const Summary = () => {
               alt="jump"
             />
           )}
-          <span className="summary__mark">{storage[0].max[3]}</span>
+          <SummaryJump />
         </li>
 
         <li className="summary__item">
@@ -76,7 +83,7 @@ export const Summary = () => {
               alt="technique"
             />
           )}
-          <span className="summary__mark">{storage[0].max[4]}</span>
+          <SummaryTechnique />
         </li>
 
         <li className="summary__item">
@@ -93,7 +100,7 @@ export const Summary = () => {
               alt="stamina"
             />
           )}
-          <span className="summary__mark">{storage[0].max[5]}</span>
+          <SummaryStamina />
         </li>
 
         <li className="summary__item">
@@ -102,7 +109,7 @@ export const Summary = () => {
           ) : (
             <img className="summary__img" src="/img/autism-dark.png" alt="iq" />
           )}
-          <span className="summary__mark">{storage[0].max[6]}</span>
+          <SummaryIq />
         </li>
 
         <li className="summary__item">
@@ -119,7 +126,7 @@ export const Summary = () => {
               alt="mental"
             />
           )}
-          <span className="summary__mark">{storage[0].max[7]}</span>
+          <SummaryMental />
         </li>
       </ul>
     </div>

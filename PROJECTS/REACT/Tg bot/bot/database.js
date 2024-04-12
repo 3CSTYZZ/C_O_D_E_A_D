@@ -1,0 +1,58 @@
+module.exports = {
+  // users pts
+  pts: {
+    max: 58,
+    tema: 41,
+    fedya: 60,
+    barca: 57,
+    jane: 54,
+    nina: 55,
+    sveta: 67,
+    pasha: 59,
+    gleb: 60,
+    polly: 55,
+    anya: 44,
+    samu: 62,
+    jane_jr: 45,
+    vera: 50,
+    dante: 48,
+  },
+
+  // users flow
+  flow: {
+    max: "➘3",
+    tema: "",
+    fedya: "➚2",
+    barca: "➘1",
+    jane: "➘2",
+    nina: "➚1",
+    sveta: "",
+    pasha: "➘1",
+    gleb: "➚3",
+    polly: "➚1",
+    anya: "",
+    samu: "",
+    jane_jr: "",
+    vera: "➚1",
+    dante: "➘1",
+  },
+
+  // users ID
+  id: {
+    max: "ecstvzz",
+    tema: "temasafonov",
+    fedya: "Amblig",
+    barca: "vladoosssssss",
+    jane: "JanineErofeeva",
+    nina: "nbulavina",
+    sveta: "antonets_svetlana",
+    pasha: "pavelfedotov99",
+    gleb: "Glebporotikov",
+    polly: "PolinaPorotikova",
+    anya: "anna_alekseevna2206",
+    samu: "Evillcola",
+    jane_jr: "eva_4li",
+    vera: "V_SV06",
+    dante: "jdlegendary",
+  },
+};

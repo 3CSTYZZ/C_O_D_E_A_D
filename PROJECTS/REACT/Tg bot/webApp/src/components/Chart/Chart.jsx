@@ -33,7 +33,7 @@ export const data = {
     "Technique",
     "Stamina",
     "Game IQ",
-    "Physique",
+    "Mental",
   ],
 
   datasets: [

@@ -88,14 +88,14 @@ export const SummaryIq = () => {
           <span className="summary__mark">{storage[7].paul[6]}</span>
         ))}
 
-      {/* Sasha */}
+      {/* Mario */}
       {user?.username === storage[8].id &&
-        (storage[8].alex[6] === 10 ? (
+        (storage[8].mario[6] === 10 ? (
           <span className="summary__mark summary__mark--max">
-            {storage[8].alex[6]}
+            {storage[8].mario[6]}
           </span>
         ) : (
-          <span className="summary__mark">{storage[8].alex[6]}</span>
+          <span className="summary__mark">{storage[8].mario[6]}</span>
         ))}
 
       {/* Gleb */}
@@ -186,6 +186,26 @@ export const SummaryIq = () => {
           </span>
         ) : (
           <span className="summary__mark">{storage[17].dante[6]}</span>
+        ))}
+
+      {/* Max2 */}
+      {user?.username === storage[18].id &&
+        (storage[18].max2[6] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[18].max2[6]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[18].max2[6]}</span>
+        ))}
+
+      {/* Vlad2 */}
+      {user?.username === storage[19].id &&
+        (storage[19].vlad2[6] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[19].vlad2[6]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[19].vlad2[6]}</span>
         ))}
     </>
   );

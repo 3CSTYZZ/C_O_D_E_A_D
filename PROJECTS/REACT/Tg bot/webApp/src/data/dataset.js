@@ -50,10 +50,10 @@ export function dataset() {
       id: "pavelfedotov99",
     },
     {
-      alex: [7, 8, 8, 8, 9, 7, 9, 7],
+      mario: [7, 8, 8, 8, 9, 7, 9, 7],
       tier: "A",
       total: 63,
-      id: "saaaaaaaaasha",
+      id: "Mincer2412",
     },
     {
       gleb: [9, 8, 9, 9, 10, 7, 10, 7],
@@ -109,6 +109,13 @@ export function dataset() {
       total: 54,
       id: "jdlegendary",
     },
+    {
+      max2: [7, 6, 6, 6, 6, 7, 7, 7],
+      tier: "B",
+      total: 50,
+      id: "maximqa",
+    },
+    { vlad2: [7, 6, 6, 6, 6, 7, 7, 7], tier: "B", total: 50, id: "SteshVA" },
   ];
 
   return { storage };

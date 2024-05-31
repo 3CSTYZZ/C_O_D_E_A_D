@@ -72,7 +72,7 @@ export const UserTier = () => {
         </>
       )}
 
-      {/* Alex */}
+      {/* Mario */}
       {user?.username === storage[8].id && (
         <>
           <span>{user?.username} is </span>
@@ -149,6 +149,22 @@ export const UserTier = () => {
         <>
           <span>{user?.username} is </span>
           <span className="tier">{storage[17].tier}</span>
+        </>
+      )}
+
+      {/* Max2 */}
+      {user?.username === storage[18].id && (
+        <>
+          <span>{user?.username} is </span>
+          <span className="tier">{storage[18].tier}</span>
+        </>
+      )}
+
+      {/* Vlad2 */}
+      {user?.username === storage[19].id && (
+        <>
+          <span>{user?.username} is </span>
+          <span className="tier">{storage[19].tier}</span>
         </>
       )}
     </>

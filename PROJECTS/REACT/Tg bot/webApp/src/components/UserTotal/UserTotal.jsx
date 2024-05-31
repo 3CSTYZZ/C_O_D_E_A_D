@@ -48,7 +48,7 @@ export const UserTotal = () => {
         <div className={"total"}>Total: {storage[7].total} pts</div>
       )}
 
-      {/* Alex */}
+      {/* Mario */}
       {user?.username === storage[8].id && (
         <div className={"total"}>Total: {storage[8].total} pts</div>
       )}
@@ -96,6 +96,16 @@ export const UserTotal = () => {
       {/* Dante */}
       {user?.username === storage[17].id && (
         <div className={"total"}>Total: {storage[17].total} pts</div>
+      )}
+
+      {/* Max2 */}
+      {user?.username === storage[18].id && (
+        <div className={"total"}>Total: {storage[18].total} pts</div>
+      )}
+
+      {/* Vlad2 */}
+      {user?.username === storage[19].id && (
+        <div className={"total"}>Total: {storage[19].total} pts</div>
       )}
     </>
   );

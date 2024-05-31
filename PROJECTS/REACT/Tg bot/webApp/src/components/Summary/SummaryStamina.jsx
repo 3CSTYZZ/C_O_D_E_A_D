@@ -88,14 +88,14 @@ export const SummaryStamina = () => {
           <span className="summary__mark">{storage[7].paul[5]}</span>
         ))}
 
-      {/* Sasha */}
+      {/* Mario */}
       {user?.username === storage[8].id &&
-        (storage[8].alex[5] === 10 ? (
+        (storage[8].mario[5] === 10 ? (
           <span className="summary__mark summary__mark--max">
-            {storage[8].alex[5]}
+            {storage[8].mario[5]}
           </span>
         ) : (
-          <span className="summary__mark">{storage[8].alex[5]}</span>
+          <span className="summary__mark">{storage[8].mario[5]}</span>
         ))}
 
       {/* Gleb */}
@@ -186,6 +186,26 @@ export const SummaryStamina = () => {
           </span>
         ) : (
           <span className="summary__mark">{storage[17].dante[5]}</span>
+        ))}
+
+      {/* Max2 */}
+      {user?.username === storage[18].id &&
+        (storage[18].max2[5] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[18].max2[5]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[18].max2[5]}</span>
+        ))}
+
+      {/* Vlad2 */}
+      {user?.username === storage[19].id &&
+        (storage[19].vlad2[5] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[19].vlad2[5]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[19].vlad2[5]}</span>
         ))}
     </>
   );

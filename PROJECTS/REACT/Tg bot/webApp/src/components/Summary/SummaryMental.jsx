@@ -88,14 +88,14 @@ export const SummaryMental = () => {
           <span className="summary__mark">{storage[7].paul[7]}</span>
         ))}
 
-      {/* Sasha */}
+      {/* Mario */}
       {user?.username === storage[8].id &&
-        (storage[8].alex[7] === 10 ? (
+        (storage[8].mario[7] === 10 ? (
           <span className="summary__mark summary__mark--max">
-            {storage[8].alex[7]}
+            {storage[8].mario[7]}
           </span>
         ) : (
-          <span className="summary__mark">{storage[8].alex[7]}</span>
+          <span className="summary__mark">{storage[8].mario[7]}</span>
         ))}
 
       {/* Gleb */}
@@ -186,6 +186,26 @@ export const SummaryMental = () => {
           </span>
         ) : (
           <span className="summary__mark">{storage[17].dante[7]}</span>
+        ))}
+
+      {/* Max2 */}
+      {user?.username === storage[18].id &&
+        (storage[18].max2[7] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[18].max2[7]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[18].max2[7]}</span>
+        ))}
+
+      {/* Vlad2 */}
+      {user?.username === storage[19].id &&
+        (storage[19].vlad2[7] === 10 ? (
+          <span className="summary__mark summary__mark--max">
+            {storage[19].vlad2[7]}
+          </span>
+        ) : (
+          <span className="summary__mark">{storage[19].vlad2[7]}</span>
         ))}
     </>
   );

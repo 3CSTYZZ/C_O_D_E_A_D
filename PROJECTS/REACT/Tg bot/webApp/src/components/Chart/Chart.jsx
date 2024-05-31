@@ -262,21 +262,7 @@ export const data = {
       pointHoverBackgroundColor: "#fff",
       pointHoverBorderColor: "rgba(255, 230, 171)",
     },
-    {
-      label: "Jenya",
-      data: storage[15].jenya,
-      hidden: true,
-      backgroundColor: "rgba(166, 222, 223, 0.3)",
-      borderColor: "rgba(166, 222, 223, 1)",
-      borderWidth: 4,
-
-      fill: true,
-      pointBorderWidth: 1,
-      pointBackgroundColor: "rgba(166, 222, 223)",
-      pointBorderColor: "#fff",
-      pointHoverBackgroundColor: "#fff",
-      pointHoverBorderColor: "rgba(166, 222, 223)",
-    },
+    // Jane Jr. was here
     {
       label: "Vera",
       data: storage[16].vera,
@@ -292,21 +278,7 @@ export const data = {
       pointHoverBackgroundColor: "#fff",
       pointHoverBorderColor: "rgba(203, 177, 255)",
     },
-    {
-      label: "Dante",
-      data: storage[17].dante,
-      hidden: true,
-      backgroundColor: "rgba(255, 206, 160, 0.3)",
-      borderColor: "rgba(255, 206, 160, 1)",
-      borderWidth: 4,
-
-      fill: true,
-      pointBorderWidth: 1,
-      pointBackgroundColor: "rgba(255, 206, 160)",
-      pointBorderColor: "#fff",
-      pointHoverBackgroundColor: "#fff",
-      pointHoverBorderColor: "rgba(255, 206, 160)",
-    },
+    // Dante was here
     {
       label: "Maxim",
       data: storage[18].max2,

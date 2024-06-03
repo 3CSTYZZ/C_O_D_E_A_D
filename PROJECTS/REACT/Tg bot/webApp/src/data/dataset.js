@@ -9,10 +9,15 @@ export function dataset() {
 
   function tier(arr) {
     let tier = sumArr(arr);
-    const S = `${"S" ? tier > 65 : null}`;
-    const A = `${"A" ? tier > 60 : null}`;
-    const B = `${"B" ? tier > 55 : null}`;
-    return { S, A, B };
+    if (tier > 65) {
+      return "S";
+    } else if (tier >= 60) {
+      return "A";
+    } else if (tier >= 55) {
+      return "B";
+    } else if (tier >= 50) {
+      return "C";
+    }
   }
 
   // player's pts

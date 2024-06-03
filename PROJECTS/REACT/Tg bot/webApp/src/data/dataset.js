@@ -1,26 +1,33 @@
 export function dataset() {
   function sumArr(arr) {
-    let summary = arr.reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    );
+    let summary = arr.reduce((acc, currVal) => acc + currVal, 0);
     return summary;
   }
+
   const max = [10, 8, 10, 9, 9, 9, 9, 7];
+  const tema = [7, 7, 7, 7, 8, 7, 8, 8];
+
+  function tier(arr) {
+    let tier = sumArr(arr);
+    const S = `${"S" ? tier > 65 : null}`;
+    const A = `${"A" ? tier > 60 : null}`;
+    const B = `${"B" ? tier > 55 : null}`;
+    return { S, A, B };
+  }
 
   // player's pts
   const storage = [
     {
-      max: [10, 8, 10, 9, 9, 9, 9, 7],
-      tier: "SS",
-      // total: 71,
+      max: max,
+      // tier: "SS",
+      tier: tier(max),
       total: sumArr(max),
       id: "ecstvzz",
     },
     {
-      tema: [7, 7, 7, 7, 8, 7, 8, 8],
+      tema: tema,
       tier: "A",
-      total: 61,
+      total: sumArr(tema),
       id: "temasafonov",
     },
     {
@@ -127,8 +134,6 @@ export function dataset() {
     },
     { vlad2: [7, 6, 6, 6, 6, 7, 7, 7], tier: "B", total: 50, id: "SteshVA" },
   ];
-
-  console.log(storage[0].total);
 
   return { storage };
 }

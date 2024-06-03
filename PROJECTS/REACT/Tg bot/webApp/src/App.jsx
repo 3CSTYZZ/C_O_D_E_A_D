@@ -1,5 +1,3 @@
-// new lvl stats
-
 import { useEffect } from "react";
 import { useTelegram } from "./hooks/useTelegram";
 import { Header } from "./components/Header/Header";

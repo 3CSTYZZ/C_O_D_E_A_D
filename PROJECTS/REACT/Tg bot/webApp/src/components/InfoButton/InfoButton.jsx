@@ -18,6 +18,10 @@ export const InfoButton = () => {
           <ul className={"list"}>
             <li className={"item"}>
               Tier-
+              <span className="rank">SS</span>: 70+ pts
+            </li>
+            <li className={"item"}>
+              Tier-
               <span className="rank">S</span>: 65+ pts
             </li>
             <li className={"item"}>

@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: local("SpaceMono-Regular"),
+    url("../src/fonts/SpaceMono-Regular.woff2") format("woff2"),
+    url("../fonts/SpaceMono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: local("SpaceMono-Bold"),
+    url("../src/fonts/SpaceMono-Bold.woff2") format("woff2"),
+    url("../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "SpaceMono", sans-serif;
+  font-weight: 400;
+  background-color: var(--pink-bg);
+}
+
+:root {
+  /* primary */
+  --white: #fff;
+  --black: #000;
+  --pink-bg: #ff7782;
+  --pink-br: pink;
+  --pink-ui: #ffeaf1;
+  --pink-txt: #ffe9ef;
+  --pink-input: #ec4d53;
+
+  /* dark mode */
+  --dark-bg: #000230;
+  --dark-br: #285885;
+  --dark-ui: #328ea5;
+  --dark-txt: #0f7b96;
+  --dark-btn: #0c1022;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 200px;
+  max-width: 1440px;
+}
+
+.section {
+  display: flex;
+  padding: 50px 0;
+}

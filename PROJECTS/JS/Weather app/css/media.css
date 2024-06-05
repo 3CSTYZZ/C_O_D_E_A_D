@@ -1,0 +1,53 @@
+/* ⥥ screen resolution (desktop only) ⥥ */
+@media (max-width: 1200px) {
+  .plates__content {
+    font-size: 34px;
+  }
+
+  .seacrh__input {
+    width: 350px;
+  }
+
+  .search__wrapper::after {
+    max-width: 360px;
+  }
+}
+
+/* ⥥ screen resolution ⥥ */
+@media (max-width: 992px) {
+  .plates__wrapper {
+    flex-direction: column;
+  }
+
+  .plates__box {
+    min-width: 360px;
+  }
+
+  .search__form {
+    flex-direction: column;
+    padding-top: 16px;
+  }
+
+  .search__wrapper {
+    align-items: flex-start;
+  }
+}
+
+/* ⥥ screen resolution ⥥ */
+@media (max-width: 768px) {
+  .plates__content {
+    font-size: 30px;
+  }
+
+  .plates__box {
+    min-width: 100px;
+  }
+
+  .seacrh__input {
+    width: 250px;
+  }
+
+  .search__wrapper::after {
+    max-width: 258px;
+  }
+}

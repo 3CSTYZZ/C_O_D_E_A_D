@@ -1,15 +1,9 @@
 // initialization
 const TelegramBot = require("node-telegram-bot-api");
-const express = require("express");
-const cors = require("cors");
 const token = "6366307757:AAEkZ_W2arbuJzSzS_kRXfHFgvsDXFSTYGE";
 const bot = new TelegramBot(token, {
   polling: true,
 });
-
-const app = express();
-app.use(express.json());
-app.use(cors());
 
 // database
 const data = require("./database");
@@ -62,14 +56,13 @@ bot.on("message", async (msg) => {
       "CAACAgIAAxkBAAEL67xmHatAm6-t7M7YlII52PNjZ3nGFgAC6AADIjeOBAc5lJnaQ4OpNAQ"
     );
 
-    // 381764678:TEST:82325
     // sending payment
     await bot.sendInvoice(
       chatId,
       "Оплата воллейбола",
       "💳 ➠ 🔐 ➠ 🏐",
       "payload",
-      "381764678:TEST:82325",
+      "390540012:LIVE:51828",
       "RUB",
       [
         {
@@ -391,29 +384,3 @@ ${
     await bot.sendDice(chatId, { emoji: "🎲" });
   }
 });
-
-// backend
-// app.post("web/data", async (req, res) => {
-//   const { queryId } = req.body;
-// });
-
-// try {
-//   await bot.answerWebAppQuery(queryId, {
-//     type: "article",
-//     id: queryId,
-//     title: "Money :)",
-//     input_message_content: { message_text: "Congrats" },
-//   });
-//   return res.status(200).json({});
-// } catch (error) {
-//   await bot.answerWebAppQuery(queryId, {
-//     type: "article",
-//     id: queryId,
-//     title: "Money :(",
-//     input_message_content: { message_text: "No congrats" },
-//   });
-//   return res.status(500).json({});
-// }
-
-// const PORT = 8000;
-// app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
